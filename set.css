@@ -1,0 +1,36 @@
+..search-input input{
+    height: 42px;
+    width: 19cm;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    margin-left: 15px;
+    margin-top: 11px;
+    
+  }
+  .search-input.active input{
+    border-radius: 5px 5px 0 0;
+
+  }
+  .search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .list{
+    display: flex;
+    margin-left: 20cm;
+    margin-bottom: 30cm;
+    text-justify: auto;
+  }
+  .img{
+    width: 20px;
+    height: auto;
+
+
+  }
